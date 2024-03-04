@@ -1,0 +1,99 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: green;
+  color: white;
+  transition: 0.5s all ease;
+  position: sticky;
+  z-index: 99;
+  top: 0px;
+}
+.navbar.active {
+  background-color: white;
+  color: black;
+}
+.navbar .container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.navbar .container .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar .container .logo .dot {
+  color: #1bdf73;
+}
+.navbar .container .links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-weight: 500;
+}
+.navbar .container .links .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.navbar .container .links .user img {
+  width: 35px;
+  height: 35px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.navbar .container .links .user .options {
+  position: absolute;
+  top: 53px;
+  right: 0px;
+  padding: 20px;
+  color: gray;
+  width: 170px;
+  font-weight: 300;
+  border: 1px solid #1bdf73;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+.navbar .container .links button {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: transparent;
+}
+.navbar .container .links button:hover {
+  background-color: #1bdf73;
+  border-color: #1bdf73;
+}
+.navbar .container .links button.active {
+  background-color: white;
+  border-color: #1bdf73;
+  color: #1bdf73;
+}
+.navbar .container .links button.active:hover {
+  background-color: #1bdf73;
+  color: white;
+}
+.navbar hr {
+  width: 100%;
+  height: 0;
+  border: 0.5px solid lightgray;
+}
+.navbar .menu {
+  width: 1200px;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 300;
+  color: gray;
+}/*# sourceMappingURL=Navbar.css.map */

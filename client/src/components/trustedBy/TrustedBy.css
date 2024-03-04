@@ -1,0 +1,19 @@
+.trustedBy {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+.trustedBy .container {
+  width: 780px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: rgb(119, 119, 119);
+  font-size: 500;
+}
+.trustedBy .container img {
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=TrustedBy.css.map */
